@@ -12,10 +12,10 @@ public class RemoveDuplicateChar {
 		StringBuffer sf = new StringBuffer();
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
-			if (!set.contains(c)) {
+			if (!set.contains(c)) 
 				set.add(c);
 				sf.append(c);
-			}
+			
 		}
 		return sf.toString();
 
